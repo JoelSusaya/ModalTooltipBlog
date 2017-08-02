@@ -71,9 +71,10 @@ body {
     color: inherit;
 }
 
-.first-letter {
+.first-paragraph:first-letter {
     color: #572357;
     font-size: 5rem;
     line-height: .85;
     padding-right: .4rem;
+    float: left;
 }
