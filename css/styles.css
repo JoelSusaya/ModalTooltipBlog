@@ -40,12 +40,18 @@ body {
     background-color: #810096;
     font-size: 1.05rem;
     font-weight: 500;
+    line-height: 1.1;
 }
 
 .badge-game-title {
     background-color: #95989A;
     font-size: 1.05rem;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.badge-game-title a {
+    color: #FCA118;
 }
 
 .byline {
@@ -57,4 +63,17 @@ body {
     position: absolute;
     top: 18rem; /* This should be a variable in SCSS */
     margin: 2rem auto 0 auto;
+}
+
+.info-modal-link {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color: inherit;
+}
+
+.first-letter {
+    color: #572357;
+    font-size: 5rem;
+    line-height: .85;
+    padding-right: .4rem;
 }
