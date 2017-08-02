@@ -1,3 +1,7 @@
+body {
+    background-color: #B3A6B2;
+}
+
 .navbar.nav-left {
     background-color: #40346C;
     position: absolute;
@@ -19,7 +23,7 @@
 
 .row.row-hero {
     position: absolute;
-    height: 18rem;
+    height: 18rem; /* This should be a variable in SCSS */
     background-color: black;
 } 
 
@@ -38,7 +42,19 @@
     font-weight: 500;
 }
 
+.badge-game-title {
+    background-color: #95989A;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
 .byline {
     font-style: italic;
     font-weight: 500;
+}
+
+.row-container {
+    position: absolute;
+    top: 18rem; /* This should be a variable in SCSS */
+    margin: 2rem auto 0 auto;
 }
