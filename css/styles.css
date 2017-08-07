@@ -71,6 +71,10 @@ body {
     color: inherit;
 }
 
+.row-content .info-modal-link {
+    color: rgba(96, 31, 161, 0.9);
+}
+
 .first-paragraph:first-letter {
     color: #572357;
     font-size: 5rem;
