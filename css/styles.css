@@ -1,84 +1,62 @@
 body {
-    background-color: #B3A6B2;
-}
+  background-color: #B3A6B2; }
 
 .navbar.nav-left {
-    background-color: #40346C;
-    position: absolute;
-}
-
-.nav-link {
-    color: rgba(255, 255, 255, .9);
-}
-
-.social-link {
+  background-color: #40346C;
+  position: absolute; }
+  .navbar.nav-left .nav-link {
+    color: rgba(255, 255, 255, 0.9); }
+  .navbar.nav-left .social-link {
     font-size: 2.5rem;
     text-decoration: none;
-    color: rgba(255, 255, 255, .9);
-}
-
-.social-link:hover, .nav-link:hover {
-    color: rgba(234, 162, 255, 0.9); 
-}
+    color: rgba(255, 255, 255, 0.9); }
+  .navbar.nav-left .social-link:hover, .navbar.nav-left .nav-link:hover {
+    color: rgba(234, 162, 255, 0.9); }
 
 .row.row-hero {
-    position: absolute;
-    height: 18rem; /* This should be a variable in SCSS */
-    background-color: black;
-} 
-
-.main-heading {
-    font-weight: 700;
-}
-
-.row-caption {
+  position: absolute;
+  height: 18rem;
+  /* This should be a variable in SCSS */
+  background-color: black; }
+  .row.row-hero .main-heading {
+    font-weight: 700; }
+  .row.row-hero .row-caption {
     font-style: italic;
-    font-size: 1.15rem;
-}
-
-.badge-review {
+    font-size: 1.15rem; }
+  .row.row-hero .badge-review {
     background-color: #810096;
     font-size: 1.05rem;
     font-weight: 500;
-    line-height: 1.1;
-}
+    line-height: 1.1; }
+  .row.row-hero .byline {
+    font-style: italic;
+    font-weight: 500; }
 
 .badge-game-title {
-    background-color: #95989A;
-    font-size: 1.05rem;
-    font-weight: 400;
-    line-height: 1.5;
-}
+  background-color: #95989A;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.5; }
+  .badge-game-title a {
+    color: #FCA118; }
 
-.badge-game-title a {
-    color: #FCA118;
-}
-
-.byline {
-    font-style: italic;
-    font-weight: 500;
-}
-
-.row-container {
-    position: absolute;
-    top: 18rem; /* This should be a variable in SCSS */
-    margin: 2rem auto 0 auto;
-}
-
-.info-modal-link {
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    color: inherit;
-}
+.row.row-container {
+  position: absolute;
+  top: 18rem;
+  /* This should be a variable in SCSS */
+  margin: 2rem auto 0 auto; }
 
 .row-content .info-modal-link {
-    color: rgba(96, 31, 161, 0.9);
-}
+  color: rgba(96, 31, 161, 0.9); }
 
-.first-paragraph:first-letter {
-    color: #572357;
-    font-size: 5rem;
-    line-height: .85;
-    padding-right: .4rem;
-    float: left;
-}
+.row-content .first-paragraph:first-letter {
+  color: #572357;
+  font-size: 5rem;
+  line-height: .85;
+  padding-right: .4rem;
+  float: left; }
+
+.info-modal-link {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  color: inherit; }

@@ -1,0 +1,89 @@
+body {
+    background-color: #B3A6B2;
+}
+
+.navbar.nav-left {
+    background-color: #40346C;
+    position: absolute;
+
+    .nav-link {
+        color: rgba(255, 255, 255, .9);
+    }
+
+    .social-link {
+        font-size: 2.5rem;
+        text-decoration: none;
+        color: rgba(255, 255, 255, .9);
+    }
+
+    .social-link:hover, .nav-link:hover {
+        color: rgba(234, 162, 255, 0.9); 
+    }
+}
+
+// Below nested styles are what style the header
+.row.row-hero {
+    position: absolute;
+    height: 18rem; /* This should be a variable in SCSS */
+    background-color: black;
+
+    .main-heading {
+        font-weight: 700;
+    }
+
+    .row-caption {
+        font-style: italic;
+        font-size: 1.15rem;
+    }
+
+    .badge-review {
+        background-color: #810096;
+        font-size: 1.05rem;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+
+    .byline {
+        font-style: italic;
+        font-weight: 500;
+    }
+} 
+
+// Styles for the game's title
+.badge-game-title {
+    background-color: #95989A;
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    a {
+        color: #FCA118;
+    }
+}
+
+.row.row-container {
+    position: absolute;
+    top: 18rem; /* This should be a variable in SCSS */
+    margin: 2rem auto 0 auto;
+}
+
+.row-content {
+    .info-modal-link {
+        color: rgba(96, 31, 161, 0.9);
+    }
+
+    .first-paragraph:first-letter {
+        color: #572357;
+        font-size: 5rem;
+        line-height: .85;
+        padding-right: .4rem;
+        float: left;
+    }
+}
+
+// Styles for all info modal links
+.info-modal-link {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color: inherit;
+}
