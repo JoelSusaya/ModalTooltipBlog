@@ -1,32 +1,47 @@
+$color-dark: #40346C;
+$color-pale: #B3A6B2;
+
+$color-modal: #EFE7F0;
+
+$color-nav-link: rgba(255, 255, 255, .9);
+$color-nav-link-hover: rgba(234, 162, 255, 0.9); 
+
+$color-modal-footer-link: #009688;
+
 body {
-    background-color: #B3A6B2;
+    background-color: $color-pale;
 }
 
 .navbar.nav-left {
-    background-color: #40346C;
+    background-color: $color-dark;
     position: absolute;
 
     .nav-link {
-        color: rgba(255, 255, 255, .9);
+        color: $color-nav-link;
+        
+        &:hover {
+            color: $color-nav-link-hover;
+        }
     }
 
     .social-link {
         font-size: 2.5rem;
         text-decoration: none;
-        color: rgba(255, 255, 255, .9);
-    }
+        color: $color-nav-link;
 
-    .social-link:hover, .nav-link:hover {
-        color: rgba(234, 162, 255, 0.9); 
+        &:hover {
+            color: $color-nav-link-hover;
+        }
     }
 }
 
-// Below nested styles are what style the header
 .row.row-hero {
     position: absolute;
     height: 18rem; /* This should be a variable in SCSS */
     background-color: black;
+} 
 
+.hero-text {
     .main-heading {
         font-weight: 700;
     }
@@ -47,7 +62,7 @@ body {
         font-style: italic;
         font-weight: 500;
     }
-} 
+}
 
 // Styles for the game's title
 .badge-game-title {
@@ -86,4 +101,39 @@ body {
     text-decoration-line: underline;
     text-decoration-style: dotted;
     color: inherit;
+}
+
+.modal-content {
+    background-color: $color-modal;
+    color: black;
+
+    .modal-header, .modal-body, .modal-footer {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .modal-header {
+        border-bottom: none;
+
+        h4 {
+            font-size: 1.2rem;
+            line-height: 1.2;
+        }
+    }
+
+    .modal-body {
+        font-size: 1rem;
+    }
+    
+    .modal-footer {
+        border-top: none;
+        
+        a {
+            color: $color-modal-footer-link;
+        }
+    }
+}
+
+.modal-backdrop.show {
+    opacity: .02;
 }

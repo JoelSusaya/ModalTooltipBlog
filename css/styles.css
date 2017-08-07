@@ -6,31 +6,37 @@ body {
   position: absolute; }
   .navbar.nav-left .nav-link {
     color: rgba(255, 255, 255, 0.9); }
+    .navbar.nav-left .nav-link:hover {
+      color: rgba(234, 162, 255, 0.9); }
   .navbar.nav-left .social-link {
     font-size: 2.5rem;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.9); }
-  .navbar.nav-left .social-link:hover, .navbar.nav-left .nav-link:hover {
-    color: rgba(234, 162, 255, 0.9); }
+    .navbar.nav-left .social-link:hover {
+      color: rgba(234, 162, 255, 0.9); }
 
 .row.row-hero {
   position: absolute;
   height: 18rem;
   /* This should be a variable in SCSS */
   background-color: black; }
-  .row.row-hero .main-heading {
-    font-weight: 700; }
-  .row.row-hero .row-caption {
-    font-style: italic;
-    font-size: 1.15rem; }
-  .row.row-hero .badge-review {
-    background-color: #810096;
-    font-size: 1.05rem;
-    font-weight: 500;
-    line-height: 1.1; }
-  .row.row-hero .byline {
-    font-style: italic;
-    font-weight: 500; }
+
+.hero-text .main-heading {
+  font-weight: 700; }
+
+.hero-text .row-caption {
+  font-style: italic;
+  font-size: 1.15rem; }
+
+.hero-text .badge-review {
+  background-color: #810096;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.1; }
+
+.hero-text .byline {
+  font-style: italic;
+  font-weight: 500; }
 
 .badge-game-title {
   background-color: #95989A;
@@ -60,3 +66,24 @@ body {
   text-decoration-line: underline;
   text-decoration-style: dotted;
   color: inherit; }
+
+.modal-content {
+  background-color: #EFE7F0;
+  color: black; }
+  .modal-content .modal-header, .modal-content .modal-body, .modal-content .modal-footer {
+    padding-left: 1.5em;
+    padding-right: 1.5em; }
+  .modal-content .modal-header {
+    border-bottom: none; }
+    .modal-content .modal-header h4 {
+      font-size: 1.2rem;
+      line-height: 1.2; }
+  .modal-content .modal-body {
+    font-size: 1rem; }
+  .modal-content .modal-footer {
+    border-top: none; }
+    .modal-content .modal-footer a {
+      color: #009688; }
+
+.modal-backdrop.show {
+  opacity: .02; }

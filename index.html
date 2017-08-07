@@ -30,19 +30,19 @@
                             <h2 class="mt-3 mb-3" align="center">Susaya</h2>
                             <ul class="navbar-nav ml-2 pt-2">
                                 <li class="nav-item active">
-                                    <a href="" class="nav-link"><i class="fa fa-home mr-2"></i>Home</a>
+                                    <a href="/index.html" class="nav-link"><i class="fa fa-home mr-2"></i>Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" class="nav-link"><i class="fa fa-gamepad mr-2"></i>Videogames</a>
+                                    <a href="#" class="nav-link"><i class="fa fa-gamepad mr-2"></i>Videogames</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" class="nav-link"><i class="fa fa-desktop mr-2"></i>Programming</a
+                                    <a href="#" class="nav-link"><i class="fa fa-desktop mr-2"></i>Programming</a
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" class="nav-link"><i class="fa fa-music mr-2"></i>Music</a>
+                                    <a href="#" class="nav-link"><i class="fa fa-music mr-2"></i>Music</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" class="nav-link"><i class="fa fa-question-circle mr-2"></i>About</a>
+                                    <a href="#" class="nav-link"><i class="fa fa-question-circle mr-2"></i>About</a>
                                 </li>
                             </ul>
                         </div>
@@ -96,59 +96,114 @@
                             <div class="byline" align="center">By Joel Susaya | August 1, 2017 10:10PM EDT</div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- This is where the page content starts -->
-                    <div class="row row-container w-100">
-                        <div class="container">
+                <!-- This is where the page content starts -->
+                <div class="row row-container w-100">
+                    <div class="container">
 
-                            <div class="row">
-                                <div class="col">
-                                    <span class="badge badge-game-title"><a href="" class="info-modal-link" data-target="#gameTitleModal" data-toggle="modal"><span class="align-top pl-1 pr-1">Factorio</span></a></span>
-                                </div>
+                        <div class="row">
+                            <div class="col">
+                                <span class="badge badge-game-title"><a href="#" id="gameTitle" class="info-modal-link" ><span class="align-top pl-1 pr-1">Factorio</span></a></span>
                             </div>
+                        </div>
 
-                            <div id="gameTitleModal" class="modal" role="dialog">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title"></h4>
-                                            <button type="button" 
-                                            data-dismiss="modal" class="close">
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a class="related-link" href="#">
-                                            </a>
-                                        </div>
+                        <div id="gameTitleModal" class="modal" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header pb-2">
+                                        <h4 class="modal-title">
+                                            Factorio
+                                        </h4>
+                                        <button type="button" 
+                                        data-dismiss="modal" class="close">&times;
+                                        </button>
+                                    </div>
+                                    <div class="modal-body pt-2 pb-2">
+                                        <p class="mb-2">
+                                            Platform: Windows, Mac OS X,  SteamOS + Linux
+                                        </p>
+                                        <p class="mb-2">
+                                            Developer: Wube Software LTD.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer justify-content-start pt-2">
+                                        <a class="related-link text-capitalize" href="#">
+                                            Factorio-Related Pages
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="row row-content mt-4">
-                                <div class="col-9 offset-md-1">
-                                    <p class="first-paragraph">
-                                        Factorio is 2D, top-down <a href="" class="info-modal-link">base building</a> game similiar to games like Minecraft and Space Engineers. Stranded on a planet, the player has to harness the power of the world's resources to research and build a rocket off the foresaken rock.
-                                    </p>
-                                    <p>
-                                        In traditional base building games, the player often is tasked with the collection of resources and subsequently crafting them. It is generally a very manual task, but one that gamers often find rewarding as we watch our creations increase in complexity.
-                                    </p>
-                                    <p>
-                                        Through its use of conveyer belts, robotic arms, and other such mechanics, Factorio empowers the player to create fully automated systems to harvest, process, and fabricate items. Need fuel for your machinery to run? Automate the process by feeding a conveyor belt of coal to the machines. You can even automate your factory to create the <a href="" class="info-modal-link">research</a> you need to unlock more equipment for deeper automatization.
-                                    </p>
+                        <div class="row row-content mt-4">
+                            <div class="col-9 offset-md-1">
+                                <p class="first-paragraph">
+                                    Factorio is 2D, top-down <a id="baseBuilding" href="#" class="info-modal-link">base building</a> game similiar to games like Minecraft and Space Engineers. Stranded on a planet, the player has to harness the power of the world's resources to research and build a rocket off the foresaken rock.
+                                </p>
 
-                                    <p>
-                                        If you're worried about being out of a job, you can relax as there's always more to do in Factorio. Whether it's optimizing the layout of your conveyor system or enhancing your base's electric infrastructure, you can always find something that needs improvement. Just be mindful of your carbon footprint, or you may discover that your neighbors aren't big fans of machines.
-                                    </p>
+                                <div id="baseBuildingModal" class="modal" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header pb-2">
+                                                <h4 class="modal-title">
+                                                    Base Building
+                                                </h4>
+                                                <button type="button" 
+                                                data-dismiss="modal" class="close">&times;
+                                                </button>
+                                            </div>
+                                            <div class="modal-body pt-2 pb-2">
+                                                <p class="mb-2">
+                                                    Base building games generally take place in a sandbox where the player creates an ever-expanding base to tackle larger and larger problems.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer justify-content-start pt-2">
+                                                <a class="related-link text-capitalize" href="#">
+                                                    More Base Building Games
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-1"></div>
-                            </div>
 
-                            <div class="row">
-              
+                                <p>
+                                    In traditional base building games, the player often is tasked with the collection of resources and subsequently crafting them. It is generally a very manual task, but one that gamers often find rewarding as we watch our creations increase in complexity.
+                                </p>
+                                <p>
+                                    Through its use of conveyer belts, robotic arms, and other such mechanics, Factorio empowers the player to create fully automated systems to harvest, process, and fabricate items. Need fuel for your machinery to run? Automate the process by feeding a conveyor belt of coal to the machines. You can even automate your factory to create the <a id="research" href="#" class="info-modal-link">research</a> you need to unlock more equipment for deeper automatization.
+                                </p>
+
+                                <div id="researchModal" class="modal" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header pb-2">
+                                                <h4 class="modal-title">
+                                                    Research
+                                                </h4>
+                                                <button type="button" 
+                                                data-dismiss="modal" class="close">&times;
+                                                </button>
+                                            </div>
+                                            <div class="modal-body pt-2 pb-2">
+                                                <p class="mb-2">
+                                                    Research is one of the primary goals the player has in Factorio. Each research the player completes helps to unlock further research, which ultimately leads to the victory condition where the player builds a rocket ship.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    If you're worried about being out of a job, you can relax as there's always more to do in Factorio. Whether it's optimizing the layout of your conveyor system or enhancing your base's electric infrastructure, you can always find something that needs improvement. Just be mindful of your carbon footprint, or you may discover that your neighbors aren't big fans of machines.
+                                </p>
                             </div>
+                            <div class="col-md-1"></div>
+                        </div>
+
+                        <div class="row">
+            
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -159,6 +214,7 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
